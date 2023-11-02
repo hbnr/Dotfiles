@@ -26,6 +26,7 @@ alias gdc="gd --cached"
 # Docker
 alias d=docker
 alias dc=docker-compose
+alias dps="d ps"
 
 
 # NPM
