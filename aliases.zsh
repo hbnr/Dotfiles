@@ -37,6 +37,3 @@ alias nr='npm run'
 # Utils
 alias ll="ls -lah"
 
-# npm
-alias nis="npm install --save"
-alias nid="npm install --save-dev"
