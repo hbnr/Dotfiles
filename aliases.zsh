@@ -37,3 +37,5 @@ alias nr='npm run'
 # Utils
 alias ll="ls -lah"
 
+# Brew
+alias bubo="brew update && brew outdated"
