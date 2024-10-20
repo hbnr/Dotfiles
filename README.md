@@ -13,3 +13,10 @@ vi ~/Dotfiles/zshrc
 ln -s ~/Dotfiles/zshrc ~/.zshrc
 source .zshrc
 ```
+
+## Tmux
+```
+brew install tmux
+ln -s ~/Dotfiles/tmux.conf ~/.tmux.conf
+tmux source .tmux.conf
+```
