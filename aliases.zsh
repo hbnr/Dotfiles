@@ -32,6 +32,8 @@ alias dps="d ps"
 alias nis='npm install --save'
 alias nid='npm install --save-dev'
 alias nr='npm run'
+alias ngx='npx ng'
+alias nxx='npx nx'
 
 # Utils
 alias ll="ls -lah"
