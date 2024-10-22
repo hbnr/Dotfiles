@@ -40,3 +40,10 @@ alias ll="ls -lah"
 
 # Brew
 alias bubo="brew update && brew outdated"
+
+#tmux
+alias t="tmux"
+alias ta="tmux a"
+alias tn="tmux new"
+alias tl="tmux ls"
+alias tns="tmux new -s"
