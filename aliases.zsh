@@ -4,6 +4,7 @@ alias zedit='vi ~/Dotfiles/zshrc'
 alias aedit='vi ~/Dotfiles/aliases.zsh'
 alias vedit="vi ~/Dotfiles/vimfiles/vimrc"
 alias tedit="vi ~/Dotfiles/tmux.conf"
+alias tload="tmux source ~/Dotfiles/tmux.conf"
 
 # Navigation
 alias cc='cd ~/Code'
