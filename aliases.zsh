@@ -1,12 +1,13 @@
 # Config
-alias zshreload='source ~/.zshrc'
-alias zshconfig='vi ~/Dotfiles/zshrc'
-alias zshalias='vi ~/Dotfiles/aliases.zsh'
-alias vimconfig="vi ~/Dotfiles/vimfiles/vimrc"
+alias zload='source ~/.zshrc'
+alias zedit='vi ~/Dotfiles/zshrc'
+alias aedit='vi ~/Dotfiles/aliases.zsh'
+alias vedit="vi ~/Dotfiles/vimfiles/vimrc"
+alias tedit="vi ~/Dotfiles/tmux.conf"
 
 # Navigation
 alias cc='cd ~/Code'
-alias dotfiles='cd ~/Dotfiles'
+alias dot='cd ~/Dotfiles'
 alias vimfiles='cd ~/Dotfiles/vimfiles'
 
 # Git
@@ -47,3 +48,6 @@ alias ta="tmux a"
 alias tn="tmux new"
 alias tl="tmux ls"
 alias tns="tmux new -s"
+
+# Vim
+alias vis='vi $(fzf --preview="bat --color=always {}")'
